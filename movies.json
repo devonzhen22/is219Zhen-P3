@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Your Name",
+            "iscore": 8.6,
+            "rating": "PG",
+            "runtime": 106,
+            "released": [2017, 4, 7],
+            "country": "Japan",
+            "posters": ["img/yourname.jpg", "img/yourname2.jpg","img/yourname3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt5311514/",
+            "website": "https://www.funimationfilms.com/movie/yourname/",
+            "likes": 935,
+            "dislikes": 100,
+            "posterindex": 0
+      },
+      {
+            "title": "Deadpool",
+            "iscore": 8.0,
+            "rating": "R",
+            "runtime": 108,
+            "released": [2016, 2, 12],
+            "country": "USA",
+            "posters": ["img/deadpool.jpg", "img/deadpool2.jpg","img/deadpool3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1431045",
+            "website": "https://www.foxmovies.com/movies/deadpool",
+            "likes": 1230,
+            "dislikes": 251,
+            "posterindex": 0
+      },
+      {
+            "title": "John Wick 2",
+            "iscore": 7.5,
+            "rating": "R",
+            "runtime": 122,
+            "released": [2017, 2, 10],
+            "country": "USA",
+            "posters": ["img/johnwick.jpg", "img/johnwick2.jpg", "img/johnwick3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt4425200",
+            "website": "https://www.lionsgate.com/movies/john-wick-chapter-2",
+            "likes": 941,
+            "dislikes": 75,
+            "posterindex": 0
       }
 ]
