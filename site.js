@@ -38,15 +38,35 @@ const vue_app = new Vue({
             title: "IMDB + Devon's Top 8 Movies",
             owner: 'Devon Zhen',
             github: 'https://github.com/devonzhen22/is219Zhen-P3',
-            poster: 'img/darkknight.jpg', //poster: 'img/darkknight.jpg'
+            //poster: 'img/darkknight.jpg', //poster: 'img/darkknight.jpg',
 
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-            makeTextDate(dateArray){},
-            like(index){},
-            dislike(index){},
-            posterClick(index){},
-            timeText(minutes){}
+            makeTextDate(dateArray){
+              var months = [ "January", "February", "March", "April", "May", "June",
+                             "July", "August", "September", "October", "November", "December" ];
+              var day = dateArray[2]; var month= months[dateArray[1]-1]; var year= dateArray[0];
+              var month=month.substring(0,3);
+              var date = month+" "+day+", "+year;
+              return date;
+            },
+            like(index){
+              index++;
+              console.log("Index: "+index);
+              console.log("Hello Like Button!");
+            },
+            dislike(){console.log("Hello Dislike Button!");},
+            posterClick(index){
+
+            },
+            timeText(minutes){
+              var hours= Math.floor(minutes/60);
+              var mins = minutes%60;
+              var time = hours+"h "+mins+"m";
+              return time;
+            }
       }
 })
+
+
